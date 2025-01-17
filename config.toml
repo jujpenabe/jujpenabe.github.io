@@ -17,3 +17,6 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+accent_color = blue-auto
+
+background_color = "auto"
