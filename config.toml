@@ -1,8 +1,8 @@
-# The URL the site will be built for
-base_url = "https://jujpenabe.github.io"
-
 # Theme to use for the website
 theme = "terminimal"
+
+# The URL the site will be built for
+base_url = "https://jujpenabe.github.io"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -13,10 +13,10 @@ build_search_index = false
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
 
 [extra]
 # Put all your custom variables here
-accent_color = blue-auto
+accent_color = "blue-auto"
 
 background_color = "auto"
