@@ -1,6 +1,8 @@
 +++
 title = "List of blog posts"
 sort_by = "date"
-template = "blog.html"
-page_template = "blog-page.html"
+# template = "archive.html"
+# page_template = "blog-page.html"
 +++
+
+How to render a list of blog posts
