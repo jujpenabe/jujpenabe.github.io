@@ -1,9 +1,10 @@
 +++
 title = "WEB 3D Point Clouds Comparison"
 date = 2025-01-16
+template = "page.html"
 +++
 
-Comparison of 3D Point Cloud Development: WebGL, P5.js, and Three.js
+# Comparison of 3D Point Cloud Development: WebGL, P5.js, and Three.js
 
 In recent years, the integration of 3D point clouds in web applications has become more accessible thanks to various JavaScript libraries and APIs. This blog explores the development process of 3D point clouds using three popular tools: pure WebGL, P5.js, and Three.js. Each of these approaches has its strengths and challenges, and this comparison aims to highlight their performance, ease of use, and suitability for different types of interactive web experiences.
 Methodology
@@ -14,7 +15,7 @@ For the sake of clarity, I have conducted a series of tests and benchmarks to ev
     Pure WebGL: View Sketch
     Three.js: View Sketch
 
-Pure WebGL
+# Pure WebGL
 
 WebGL provides a low-level interface for rendering 3D graphics directly within the browser. It is the foundation for many 3D web libraries, offering full control over the rendering pipeline. However, working with WebGL requires a solid understanding of 3D graphics concepts and considerable code for even basic scenes.
 P5.js

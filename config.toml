@@ -27,12 +27,15 @@ logo_text = "Web 3D Gaussian Splatting"
 # Author name - defaults to "terminimal"
 # author = "Juan José Peña Becerra"
 
-copyright_html = " copy; 2025 Juan José Peña Becerra <b>Universidad Nacional de Colombia</b>"
+# add a copyright notice and space for the author name and bold the name of the university
+copyright_html = "&copy; 2025 Juan José Peña Becerra&nbsp;<b>Universidad Nacional de Colombia</b>"
+
+# Use full Hack character set
+use_full_hack_font = false
 
 # menu is enabled by adding menu_items
 menu_items = [
-  {name = "blog", url = "$BASE_URL"},
-  {name = "archive", url = "$BASE_URL/archive"},
-  {name = "about me", url = "$BASE_URL/about"},
-
+  {name = "blog", url = "$BASE_URL/blog"},
+  {name = "archive", url = "$BASE_URL/pages/archive"},
+  {name = "about me", url = "$BASE_URL/pages/about"},
 ]
