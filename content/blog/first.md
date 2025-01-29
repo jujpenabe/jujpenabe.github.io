@@ -1,7 +1,7 @@
 +++
 title = "WEB 3D Point Clouds Comparison"
 date = 2025-01-16
-template = "page.html"
+# template = "page.html"
 +++
 
 # Comparison of 3D Point Cloud Development: WebGL, P5.js, and Three.js
