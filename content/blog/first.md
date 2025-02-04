@@ -1,29 +1,230 @@
 +++
 title = "WEB 3D Point Clouds Comparison"
-date = 2025-01-16
+date = 2025-02-04
 template = "page.html"
 +++
 
-# Comparison of 3D Point Cloud Development: WebGL, P5.js, and Three.js
+<table class="header">
+ <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+      <h1 class="title">WEB 3D Point Clouds Comparison</h1>
+      <span class="subtitle">WebGL vs P5.js vs Three.js</span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">v0.0.3</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2025-02-04</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Author</th>
+    <td class="width-auto"><a href="https://mainpage.me/catblue44"><cite> Juan José Peña Becerra
+</cite></a></td>
+    <th class="width-min">License</th>
+    <td>MIT</td>
+  </tr>
+</table>
 
-<p>In recent years, the integration of 3D point clouds in web applications has become more accessible thanks to various JavaScript libraries and APIs. This blog explores the development process of 3D point clouds using three popular tools: pure WebGL, P5.js, and Three.js. Each of these approaches has its strengths and challenges, and this comparison aims to highlight their performance, ease of use, and suitability for different types of interactive web experiences.</p>
-Methodology
+##### COMPARISON OF 3D POINT CLOUD DEVELOPMENT: WEBGL, P5.js, AND THREE.js
+<p>In recent years, integrating 3D point clouds in web applications has become more accessible thanks to several JavaScript libraries and APIs. This post compares three approaches—pure WebGL, P5.js, and Three.js—by examining their performance, ease of use, and suitability for interactive experiences.</p>
 
-For the sake of clarity, I have conducted a series of tests and benchmarks to evaluate the capabilities of each tool. The results are based on factors such as rendering speed, memory usage, and responsiveness to user interactions. Below are links to the interactive sketches for each tool:
+#### METHODOLOGY
+<p>A series of tests were conducted to benchmark each tool, considering factors such as rendering speed and responsiveness. You can explore the interactive sketches for each tool using the links below:
+</p>
+<hr>
 
-    P5.js: View Sketch
-    Pure WebGL: View Sketch
-    Three.js: View Sketch
+<div class="button-container">
+    <a href="https://editor.p5js.org/jujpenabe/full/XV3EawH1b" target="_blank">
+      <button>P5.js</button>
+    </a>
+    <a href="https://editor.p5js.org/jujpenabe/full/PzAJrh2a3" target="_blank">
+      <button>Three.js</button>
+    </a>
+    <a href="https://editor.p5js.org/jujpenabe/full/O9QSgf-IM" target="_blank">
+      <button>WebGL</button>
+    </a>
+  </div>
 
-# Pure WebGL
+#### FRAMEWORK OVERVIEW 
+#### P5.JS
 
-WebGL provides a low-level interface for rendering 3D graphics directly within the browser. It is the foundation for many 3D web libraries, offering full control over the rendering pipeline. However, working with WebGL requires a solid understanding of 3D graphics concepts and considerable code for even basic scenes.
-P5.js
+Is a higher-level library that simplifies graphics development. Although it’s primarily designed for 2D graphics, its 3D capabilities (including point clouds) make it a good choice for rapid prototyping and educational projects. However, handling very complex 3D data might be challenging.
+#### THREE.JS
 
-P5.js, a higher-level library, offers a more user-friendly approach to graphics development. While primarily aimed at 2D graphics, its 3D capabilities, including support for point clouds, make it an appealing choice for rapid prototyping and educational purposes. This section will discuss how P5.js simplifies the process compared to WebGL and its limitations in handling complex 3D point cloud data.
-Three.js
+Is one of the most popular 3D libraries for the web. It abstracts much of the low-level complexity of WebGL while still providing extensive functionality. This balance makes Three.js suitable for production-level applications, especially when integrating modern web technologies like VR or AR.
+#### PURE WEBGL
 
-Three.js is one of the most popular 3D JavaScript libraries, known for its ease of use and extensive functionality. It abstracts much of the complexity of WebGL, allowing developers to create 3D scenes with minimal code. This section will examine how Three.js handles point cloud rendering, performance, and integration with modern web technologies like VR and AR.
-Conclusion
+Provides low-level access to the GPU for 3D graphics, offering complete control over the rendering pipeline. This flexibility comes at the cost of increased complexity and the need for a strong background in 3D graphics programming.
+<hr>
 
-Each tool has its place in the development of 3D web applications. Pure WebGL provides the most flexibility but requires deep technical knowledge, while P5.js offers simplicity for smaller projects or educational contexts. Three.js strikes a balance between ease of use and functionality, making it ideal for production-ready applications.
+#### BENCHMARK RESULT
+
+#### P5.JS
+
+{{ image(src="./P5_500.jpeg") }}
+<img src="/P5_500.jpeg" alt="500 points" style="width:100%" />
+![500 points](P5_500.jpeg)
+
+<table>
+<thead>
+<tr>
+<th class="width-min">
+Points
+</th>
+<th class="width-auto">
+FPS
+</th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      500
+    </td>
+    <td>
+        87.86
+    </td>
+  </tr>
+  <tr>
+    <td>
+      1000
+    </td>
+    <td>
+        54.01
+    </td>
+  </tr>
+  <tr>
+    <td>
+      1500
+    </td>
+    <td>
+       39.93.00
+    </td>
+  </tr>
+    <tr>
+     <td>2000</td>
+     <td>
+        31.19
+     </td>
+   </tr>
+   <tr>
+      <td> 2500</td>
+      <td>
+        25.80
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### THREE.JS
+<table>
+  <thead>
+  <tr>
+  <th class="width-min">
+  Points
+  </th>
+  <th class="width-auto">
+  FPS
+  </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      1000
+    </td>
+    <td>
+       133.67
+    </td>
+  </tr>
+  <tr>
+    <td>
+      1500
+    </td>
+    <td>
+      57.92
+    </td>
+  </tr>
+ <tr>
+    <td>
+      2000
+    </td>
+    <td>
+        84.7
+    </td>
+  </tr>
+   <tr>
+      <td> 2500</td>
+      <td>
+          55.62
+      </td>
+    </tr>
+   </tr>
+</tbody>
+</table>
+ 
+#### WEBGL
+<table>
+  <thead>
+    <tr>
+      <th class="width-min">
+        Points
+      </th>
+      <th class="width-auto">
+        FPS
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1,000
+      </td>
+      <td>
+          144
+      </td>
+    </tr>
+    <tr>
+      <td>
+        10,000
+      </td>
+      <td>
+          148
+      </td>
+    </tr>
+
+   <tr>
+      <td>
+        100,000
+      </td>
+      <td>
+           147
+      </td>
+    </tr>
+     <tr>
+        <td> 1,000,000</td>
+        <td>
+            55
+        </td>
+      </tr>
+      <tr>
+       <td>10,000,000</td>
+       <td>
+            5
+       </td>
+     </tr>
+  </tbody>
+</table>
+<hr>
+
+#### CONCLUSIONS
+
+<p>
+Each tool offers distinct advantages:
+<ul class="incremental">
+<li> Pure WebGL provides maximum flexibility at the cost of complexity.</li>
+<li> P5.js is great for rapid prototyping and simpler projects.</li>
+<li> Three.js strikes an effective balance, making it ideal for robust, production-ready applications.</li>
+</ul>
+</p>
