@@ -60,11 +60,11 @@ Provides low-level access to the GPU for 3D graphics, offering complete control 
 
 #### BENCHMARK RESULT
 
+{{ image(src="/../blog/comparison.jpg", alt="comparison", style="border-radius: 8px;") }}
+
 #### P5.JS
 
-{{ image(src="./P5_500.jpeg") }}
-<img src="/P5_500.jpeg" alt="500 points" style="width:100%" />
-![500 points](P5_500.jpeg)
+{{ image(src="/../blog/P5_500.jpeg", alt="500 points", style="border-radius: 8px;") }}
 
 <table>
 <thead>
@@ -118,6 +118,8 @@ FPS
 </table>
 
 #### THREE.JS
+
+{{ image(src="/../blog/Three_1000.jpeg", alt="threejs", style="border-radius: 8px;") }}
 <table>
   <thead>
   <tr>
@@ -165,6 +167,8 @@ FPS
 </table>
  
 #### WEBGL
+
+{{ image(src="/../blog/WebGL_1000.jpeg", alt="webgl", style="border-radius: 8px;") }}
 <table>
   <thead>
     <tr>
