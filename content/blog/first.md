@@ -1,6 +1,6 @@
 +++
 title = "WEB 3D Point Clouds Comparison"
-date = 2025-02-04
+date = 2025-02-27
 template = "page.html"
 +++
 
@@ -11,17 +11,17 @@ template = "page.html"
       <span class="subtitle">WebGL vs P5.js vs Three.js</span>
     </td>
     <th>Version</th>
-    <td class="width-min">v0.0.3</td>
+    <td class="width-auto">v0.0.4</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2025-02-04</time></td>
+    <td class="width-auto"><time style="white-space: pre;">2025-02-27</time></td>
   </tr>
   <tr>
     <th class="width-min">Author</th>
     <td class="width-auto"><a href="https://mainpage.me/catblue44"><cite> Juan José Peña Becerra
 </cite></a></td>
-    <th class="width-min">License</th>
+    <th class="width-auto">License</th>
     <td>MIT</td>
   </tr>
 </table>
@@ -34,17 +34,17 @@ template = "page.html"
 </p>
 <hr>
 
-<div class="button-container">
+<div class="button-container" style="display: flex; gap: 10px; justify-content: center; align-items: center;">
     <a href="https://editor.p5js.org/jujpenabe/full/XV3EawH1b" target="_blank">
-      <button>P5.js</button>
+      <button style="margin: 0;">P5.js</button>
     </a>
     <a href="https://editor.p5js.org/jujpenabe/full/PzAJrh2a3" target="_blank">
-      <button>Three.js</button>
+      <button style="margin: 0;">Three.js</button>
     </a>
     <a href="https://editor.p5js.org/jujpenabe/full/O9QSgf-IM" target="_blank">
-      <button>WebGL</button>
+      <button style="margin: 0;">WebGL</button>
     </a>
-  </div>
+</div>
 
 #### FRAMEWORK OVERVIEW 
 #### P5.JS
@@ -69,7 +69,7 @@ Provides low-level access to the GPU for 3D graphics, offering complete control 
 <table>
 <thead>
 <tr>
-<th class="width-min">
+<th class="width-auto">
 Points
 </th>
 <th class="width-auto">
@@ -123,7 +123,7 @@ FPS
 <table>
   <thead>
   <tr>
-  <th class="width-min">
+  <th class="width-auto">
   Points
   </th>
   <th class="width-auto">
@@ -172,7 +172,7 @@ FPS
 <table>
   <thead>
     <tr>
-      <th class="width-min">
+      <th class="width-auto">
         Points
       </th>
       <th class="width-auto">

@@ -1,13 +1,13 @@
 +++
 title = "TODO"
-date = 2025-02-21
+date = 2025-02-28
 template = "page.html"
 +++
 
 <table>
 <thead>
 <tr>
-<th class="width-min">
+<th class="width-auto">
 Entry
 </th>
 <th class="width-auto">
@@ -29,7 +29,7 @@ Done
       Web Tools Benchmark
     </td>
     <td>
-        60%
+        80%
     </td>
   </tr>
   <tr>

@@ -8,7 +8,7 @@
 :root {
   --font-family: "JetBrains Mono", monospace;
   --line-height: 1.20rem;
-  --border-thickness: 2px;
+  --border-thickness: 0px;
   --text-color: #000;
   --text-color-alt: #666;
   --background-color: #fff;
@@ -40,7 +40,6 @@
 }
 
 * + * {
-  margin-top: var(--line-height);
 }
 
 html {
