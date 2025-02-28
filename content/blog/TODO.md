@@ -18,10 +18,10 @@ Done
 <tbody>
   <tr>
     <td>
-      Code Rosseta
+      The Rosetta Code
     </td>
     <td>
-        20%
+        50%
     </td>
   </tr>
   <tr>
@@ -29,7 +29,7 @@ Done
       Web Tools Benchmark
     </td>
     <td>
-        80%
+        90%
     </td>
   </tr>
   <tr>
