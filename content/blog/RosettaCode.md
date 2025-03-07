@@ -6,11 +6,11 @@ template = "page.html"
 
 #### The Rosetta Stone
 
-The Rosetta Stone has inscribed on it a decree by priests honouring Ptolemy V, who was 13 at the time. The inscription is in hieroglyphic and demotic - both scripts of the Egyptian language - and Greek. Comparing the known Greek with the hieroglyphs with some remarkable talent became the key to deciphering the written language of hieroglyphs.
+Just as the Rosetta Stone served as a bridge between ancient languages, enabling the deciphering of Egyptian hieroglyphs by providing parallel texts in Greek and Demotic scripts, modern 3D web frameworks like p5.js, Three.js, and WebGL act as intermediaries, translating complex graphics programming into more accessible forms for developers. These tools, built atop the WebGL API, have empowered developers to create intricate visual experiences on the web.
 
 ![rosetta stone](https://sketchplanations.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsketchplanations%2Fec6046c3-6ec9-46ae-9625-53f2c12376bc_129239825802.jpg%3Fauto%3Dcompress%2Cformat&w=1080&q=75)
 
-Similarly, the 3D Web frameworks described here can be "translated" between each other. Is importan to note that basically, most of the current 3D web frameworks are based on the WebGL API, which is a low-level API that exposes the OpenGL ES 3.0 API. So in a degree it is just a matter of preference to choose which framework to use. or at least it should be demosntrated in the next benchmark post. In this case we are comparing p5.JS, Three.js and WebGL.  
+Similarly, the 3D Web frameworks described here can be "translated" between each other. Is importan to note that basically, most of the current 3D web frameworks are based on the WebGL API, which is a low-level API that exposes the OpenGL ES 3.0 API. So in a degree it is just a matter of preference to choose which framework to use. or at least it should be demonstrated in the next benchmark post. In this case we are comparing p5.JS, Three.js and WebGL.  
 
 
 ##### COMPARISON OF 3D POINT CLOUD DEVELOPMENT: WEBGL, P5.js, AND THREE.js

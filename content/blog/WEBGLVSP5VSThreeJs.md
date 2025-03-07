@@ -108,7 +108,7 @@ FPS
 
 #### THREE.JS
 
-{{ image(src="/../blog/Three_1000.jpeg", alt="threejs", style="border-radius: 8px;") }}
+{{ image(src="/../blog/Three_500.jpeg", alt="threejs", style="border-radius: 8px;") }}
 <table>
   <thead>
   <tr>
