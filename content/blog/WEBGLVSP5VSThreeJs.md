@@ -55,161 +55,161 @@ template = "page.html"
 
 {{ image(src="/../blog/P5_500.jpeg", alt="500 points", style="border-radius: 8px;") }}
 
-<table>
-<thead>
-<tr>
-<th class="width-auto">
-Points
-</th>
-<th class="width-auto">
-FPS
-</th>
-</tr>
-</thead>
-<tbody>
-  <tr>
-    <td>
-      500
-    </td>
-    <td>
-        87.86
-    </td>
-  </tr>
-  <tr>
-    <td>
-      1000
-    </td>
-    <td>
-        54.01
-    </td>
-  </tr>
-  <tr>
-    <td>
-      1500
-    </td>
-    <td>
-       39.93.00
-    </td>
-  </tr>
-    <tr>
-     <td>2000</td>
-     <td>
-        31.19
-     </td>
-   </tr>
-   <tr>
-      <td> 2500</td>
-      <td>
-        25.80
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!-- <table> -->
+<!-- <thead> -->
+<!-- <tr> -->
+<!-- <th class="width-auto"> -->
+<!-- Points -->
+<!-- </th> -->
+<!-- <th class="width-auto"> -->
+<!-- FPS -->
+<!-- </th> -->
+<!-- </tr> -->
+<!-- </thead> -->
+<!-- <tbody> -->
+<!--   <tr> -->
+<!--     <td> -->
+<!--       500 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--         87.86 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--   <tr> -->
+<!--     <td> -->
+<!--       1000 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--         54.01 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--   <tr> -->
+<!--     <td> -->
+<!--       1500 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--        39.93.00 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--     <tr> -->
+<!--      <td>2000</td> -->
+<!--      <td> -->
+<!--         31.19 -->
+<!--      </td> -->
+<!--    </tr> -->
+<!--    <tr> -->
+<!--       <td> 2500</td> -->
+<!--       <td> -->
+<!--         25.80 -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--   </tbody> -->
+<!-- </table> -->
 
 #### THREE.JS
 
 {{ image(src="/../blog/Three_500.jpeg", alt="threejs", style="border-radius: 8px;") }}
-<table>
-  <thead>
-  <tr>
-  <th class="width-auto">
-  Points
-  </th>
-  <th class="width-auto">
-  FPS
-  </th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      1000
-    </td>
-    <td>
-       133.67
-    </td>
-  </tr>
-  <tr>
-    <td>
-      1500
-    </td>
-    <td>
-      57.92
-    </td>
-  </tr>
- <tr>
-    <td>
-      2000
-    </td>
-    <td>
-        84.7
-    </td>
-  </tr>
-   <tr>
-      <td> 2500</td>
-      <td>
-          55.62
-      </td>
-    </tr>
-   </tr>
-</tbody>
-</table>
+<!-- <table> -->
+<!--   <thead> -->
+<!--   <tr> -->
+<!--   <th class="width-auto"> -->
+<!--   Points -->
+<!--   </th> -->
+<!--   <th class="width-auto"> -->
+<!--   FPS -->
+<!--   </th> -->
+<!--   </tr> -->
+<!--   </thead> -->
+<!--   <tbody> -->
+<!--   <tr> -->
+<!--     <td> -->
+<!--       1000 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--        133.67 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--   <tr> -->
+<!--     <td> -->
+<!--       1500 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--       57.92 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--  <tr> -->
+<!--     <td> -->
+<!--       2000 -->
+<!--     </td> -->
+<!--     <td> -->
+<!--         84.7 -->
+<!--     </td> -->
+<!--   </tr> -->
+<!--    <tr> -->
+<!--       <td> 2500</td> -->
+<!--       <td> -->
+<!--           55.62 -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--    </tr> -->
+<!-- </tbody> -->
+<!-- </table> -->
  
 #### WEBGL
 
-{{ image(src="/../blog/WebGL_1000.jpeg", alt="webgl", style="border-radius: 8px;") }}
-<table>
-  <thead>
-    <tr>
-      <th class="width-auto">
-        Points
-      </th>
-      <th class="width-auto">
-        FPS
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        1,000
-      </td>
-      <td>
-          144
-      </td>
-    </tr>
-    <tr>
-      <td>
-        10,000
-      </td>
-      <td>
-          148
-      </td>
-    </tr>
-
-   <tr>
-      <td>
-        100,000
-      </td>
-      <td>
-           147
-      </td>
-    </tr>
-     <tr>
-        <td> 1,000,000</td>
-        <td>
-            55
-        </td>
-      </tr>
-      <tr>
-       <td>10,000,000</td>
-       <td>
-            5
-       </td>
-     </tr>
-  </tbody>
-</table>
-<hr>
+<!-- {{ image(src="/../blog/WebGL_1000.jpeg", alt="webgl", style="border-radius: 8px;") }} -->
+<!-- <table> -->
+<!--   <thead> -->
+<!--     <tr> -->
+<!--       <th class="width-auto"> -->
+<!--         Points -->
+<!--       </th> -->
+<!--       <th class="width-auto"> -->
+<!--         FPS -->
+<!--       </th> -->
+<!--     </tr> -->
+<!--   </thead> -->
+<!--   <tbody> -->
+<!--     <tr> -->
+<!--       <td> -->
+<!--         1,000 -->
+<!--       </td> -->
+<!--       <td> -->
+<!--           144 -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--     <tr> -->
+<!--       <td> -->
+<!--         10,000 -->
+<!--       </td> -->
+<!--       <td> -->
+<!--           148 -->
+<!--       </td> -->
+<!--     </tr> -->
+<!---->
+<!--    <tr> -->
+<!--       <td> -->
+<!--         100,000 -->
+<!--       </td> -->
+<!--       <td> -->
+<!--            147 -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--      <tr> -->
+<!--         <td> 1,000,000</td> -->
+<!--         <td> -->
+<!--             55 -->
+<!--         </td> -->
+<!--       </tr> -->
+<!--       <tr> -->
+<!--        <td>10,000,000</td> -->
+<!--        <td> -->
+<!--             5 -->
+<!--        </td> -->
+<!--      </tr> -->
+<!--   </tbody> -->
+<!-- </table> -->
+<!-- <hr> -->
 
 #### CONCLUSIONS
 

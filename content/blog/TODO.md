@@ -1,6 +1,6 @@
 +++
-title = "TODO"
-date = 2025-02-28
+title = "Progress"
+date = 2025-03-08
 template = "page.html"
 +++
 
@@ -21,7 +21,7 @@ Done
       The Rosetta Code
     </td>
     <td>
-        50%
+        80%
     </td>
   </tr>
   <tr>
@@ -29,7 +29,7 @@ Done
       Web Tools Benchmark
     </td>
     <td>
-        90%
+        80%
     </td>
   </tr>
     <tr>
@@ -41,7 +41,7 @@ Done
    <tr>
       <td> Google Colab Training notebook</td>
       <td>
-        10%
+        0%
       </td>
     </tr>
   </tbody>

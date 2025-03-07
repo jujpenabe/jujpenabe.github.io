@@ -1,6 +1,6 @@
 +++
 title = "The Rosetta Code"
-date = 2025-02-27
+date = 2025-03-07
 template = "page.html"
 +++
 
