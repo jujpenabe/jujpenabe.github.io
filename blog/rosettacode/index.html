@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://jujpenabe.github.io/style.css">
+    <link rel="stylesheet" href="https://jujpenabe.github.io/color/blue-auto.css">
+
+        <link rel="stylesheet" href="https://jujpenabe.github.io/color/background_auto.css">
+    
+    <link rel="stylesheet" href="https://jujpenabe.github.io/font-hack-subset.css">
+
+    <meta name="description" content="">
+
+    <meta property="og:description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jujpenabe.github.io/blog/rosettacode/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+    <meta property="twitter:domain" content="jujpenabe.github.io">
+    <meta property="twitter:url" content="https://jujpenabe.github.io/blog/rosettacode/">
+
+    <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://jujpenabe.github.io" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            Web 3D Gaussian Splatting
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        <nav class="menu">
+            <ul class="menu__inner">
+                <li class="active"><a href="https://jujpenabe.github.io/blog">blog</a></li>
+            
+                <li><a href="https://jujpenabe.github.io/pages/archive">archive</a></li>
+            
+                <li><a href="https://jujpenabe.github.io/pages/about">about me</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://jujpenabe.github.io/blog/rosettacode/">The Rosetta Code</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            2025-03-07
+        </span>
+
+    </div>
+
+    
+
+        <div class="post-content">
+            <h4 id="the-rosetta-stone">The Rosetta Stone</h4>
+<p>Just as the Rosetta Stone served as a bridge between ancient languages, enabling the deciphering of Egyptian hieroglyphs by providing parallel texts in Greek and Demotic scripts, modern 3D web frameworks like p5.js, Three.js, and WebGL act as intermediaries, translating complex graphics programming into more accessible forms for developers. These tools, built atop the WebGL API, have empowered developers to create intricate visual experiences on the web.</p>
+<p><img src="https://sketchplanations.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsketchplanations%2Fec6046c3-6ec9-46ae-9625-53f2c12376bc_129239825802.jpg%3Fauto%3Dcompress%2Cformat&amp;w=1080&amp;q=75" alt="rosetta stone" /></p>
+<p>Similarly, the 3D Web frameworks described here can be "translated" between each other. Is importan to note that basically, most of the current 3D web frameworks are based on the WebGL API, which is a low-level API that exposes the OpenGL ES 3.0 API. So in a degree it is just a matter of preference to choose which framework to use. or at least it should be demonstrated in the next benchmark post. In this case we are comparing p5.JS, Three.js and WebGL.</p>
+<h5 id="comparison-of-3d-point-cloud-development-webgl-p5-js-and-three-js">COMPARISON OF 3D POINT CLOUD DEVELOPMENT: WEBGL, P5.js, AND THREE.js</h5>
+<p>In recent years, integrating 3D point clouds in web applications has become more accessible thanks to several JavaScript libraries and [APIs](https://en.wikipedia.org/wiki/API). This post compares three approaches—pure WebGL, P5.js, and Three.js—by examining their performance, ease of use, and suitability for interactive experiences.</p>
+<h4 id="framework-overview">FRAMEWORK OVERVIEW</h4>
+<h4 id="p5-js">P5.JS</h4>
+<p><a href="https://github.com/processing/p5.js">p5.js</a> is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing.</p>
+<p>Is a higher-level library that simplifies graphics development. Although it’s primarily designed for 2D graphics, its 3D capabilities (including point clouds) make it a good choice for rapid prototyping and educational projects. However, handling very complex 3D data might be challenging.</p>
+<p>P5 is actively developed and maintained by a vibrant community of developers, and its ecosystem of libraries and plugins is constantly evolving.</p>
+<h4 id="three-js">THREE.JS</h4>
+<p>Is one of the most popular 3D libraries for the web. It abstracts much of the low-level complexity of WebGL while still providing extensive functionality. This balance makes Three.js suitable for production-level applications, especially when integrating modern web technologies like VR or AR.</p>
+<h4 id="pure-webgl">PURE WEBGL</h4>
+<p>Provides low-level access to the GPU for 3D graphics, offering complete control over the rendering pipeline. This flexibility comes at the cost of increased complexity and the need for a strong background in 3D graphics programming.</p>
+<p>WebGL is based on OpenGL ES, a low-level API for rendering 2D and 3D graphics on the web. It's a low-level API, which means that it's not as easy to use as higher-level APIs like Three.js or P5.js. The latest version of WebGL, WebGL 2.0 exposes the OpenGL ES 3.0 API.</p>
+<h4 id="methodology">METHODOLOGY</h4>
+<p>The experimet consist of the intantiaton of 3D point clouds in the browser using the Three.js, P5.js and WebGL libraries. the purpose is to check the accessibility of the three frameworks, their performance and ease of use to create interactive experiences.
+</p>
+<hr>
+<p>You can test the interactive sketches for each tool using the links below:</p>
+<div class="button-container" style="display: flex; gap: 10px; justify-content: center; align-items: center;">
+    <a href="https://aijs-code-editor-user-content.web.app/Jt0mD7CW0uQHkOj4GzIUIHLkc4h2/Projects/P5_WebCloud/index.html" target="_blank">
+      <button style="margin: 0;">P5.js</button>
+    </a>
+    <a href="https://editor.p5js.org/jujpenabe/full/PzAJrh2a3" target="_blank">
+      <button style="margin: 0;">Three.js</button>
+    </a>
+    <a href="https://editor.p5js.org/jujpenabe/full/O9QSgf-IM" target="_blank">
+      <button style="margin: 0;">WebGL</button>
+    </a>
+</div>
+
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Thanks for reading! Read other posts?</span>
+                    <hr />
+                </div>
+                <div class="pagination__buttons">
+                        <span class="button previous">
+                            <a href="https://jujpenabe.github.io/blog/theriseofwebgpu/">
+                                <span class="button__icon">←</span>&nbsp;
+                                <span class="button__text">The Rise of WebGPU</span>
+                            </a>
+                        </span>
+                    
+                    
+                        <span class="button next">
+                            <a href="https://jujpenabe.github.io/blog/todo/">
+                                <span class="button__text">Progress</span>&nbsp;
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    </div>
+            </div>
+        
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright copyright--user">&copy; 2025 Juan José Peña Becerra&nbsp;<b>Universidad Nacional de Colombia</b></div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
