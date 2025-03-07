@@ -32,24 +32,16 @@ Done
         90%
     </td>
   </tr>
-  <tr>
-    <td>
-      3DGS Web visualization
-    </td>
-    <td>
-       10%
-    </td>
-  </tr>
     <tr>
-     <td>Google Colab Training notebook</td>
+     <td> P5 2DGS Implementation</td>
      <td>
         0%
      </td>
    </tr>
    <tr>
-      <td> P5 2DGS Implementation</td>
+      <td> Google Colab Training notebook</td>
       <td>
-        0%
+        10%
       </td>
     </tr>
   </tbody>
